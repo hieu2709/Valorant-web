@@ -1,0 +1,33 @@
+.header {
+  top: 0;
+  left: 0;
+  margin: 0;
+  border: 0;
+  width: 100vw;
+  height: 80px;
+  background: rgb(17,17,17);
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.trang-chu {
+  display: inline;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.a-trang-chu{
+  color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  font-weight: 600;
+  justify-content: center;
+  letter-spacing: 1.04px;
+  line-height: 16.5px;
+  margin: 7px 0px;
+  text-align: left;
+  text-transform: uppercase;
+}
