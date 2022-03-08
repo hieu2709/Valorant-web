@@ -79,10 +79,14 @@
 .text-p-home-pro{
     color: rgb(236, 232, 225);
     width: max-content;
-    font-size: 22px;
+    font-size: 19px;
     line-height: 30px;
     font-weight: 400;
     margin-bottom: 40px;
     text-align: center;
+}
+
+.logo-valorant {
+    fill: rgb(236, 232, 225);
 }
 
