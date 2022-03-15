@@ -1,0 +1,92 @@
+.sectionOne {
+    height: 100%;
+    width: 100%;
+    background: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-top: 100px;
+    position: relative;
+}
+
+.tag-line-module {
+    color: #ff4655;
+    letter-spacing: 2px;
+    font-family: Roboto,arial,georgia,sans-serif;
+    font-weight: 700;
+    box-sizing: border-box;
+    -webkit-transform: scaleX(-1);
+    font-size: 12px;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 3;
+    right: 300px;
+    margin-top: 80px;
+}
+.tagline-text {
+    display: block;
+    min-height: 11.5px;
+    box-sizing: border-box;
+}
+
+.gameInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-content{
+    margin-left: 100px;
+    color: rgb(118 128 121);
+    line-height: 24px;
+}
+
+.bigFont {
+    font-family: 'Anton', sans-serif;
+    font-size: 100px;
+    color: #111111;
+    margin-left: -500px;
+}
+
+.normalFont {
+    font-family: 'Anton', sans-serif;
+    font-size: 21px;
+}
+
+.smallFont {
+    font-family: 'Bitter', serif;
+    line-height: 33px;
+    color: grey;
+}
+
+.marginTop {
+    padding-top: 10px;
+}
+
+.topPadding {
+    padding-top: 80px;
+}
+
+.slideIn {
+    animation: slide-in 1.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide-in {
+    0% { transform: translate3d(0, 100%, 0); }
+    100% { transform: translate3d(0, 0%, 0); }
+}
+
+.fadeIn {
+    animation: fade-in 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+    0% { opacity: 0; }
+    50% { opacity: 0;}
+    100% { opacity: 1; }
+}

@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import HomePro from '../components/HomePro/HomePro';
 import Header from '../components/Header/Header';
-import HomeGameOverview from "../components/HomeGameOverview/HomeGameOverview";
+import GameHomeOverView from "../components/HomeGameOverview/GameHomeOverView";
 Home.propTypes = {
 
 };
@@ -10,9 +10,8 @@ Home.propTypes = {
 function Home(props) {
     return (
         <>
-            <Header/>
             <HomePro/>
-            <HomeGameOverview/>
+            <GameHomeOverView/>
         </>
     );
 }

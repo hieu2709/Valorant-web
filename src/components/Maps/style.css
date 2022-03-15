@@ -1,0 +1,58 @@
+.mainBackground {
+    background-color: rgb(59,58,58);
+}
+
+.mapSize {
+    width: 500px;
+    /*height: 500px;*/
+}
+
+.mapNameFont {
+    font-family: 'Anton', sans-serif;
+    color: #FF4655;
+    letter-spacing: 3px;
+    font-size: 3rem;
+}
+
+@media only screen
+and (max-device-width: 500px) {
+
+    .mobileSizing {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .mapSize {
+        width: 320px;
+    }
+}
+
+@media only screen
+and (min-device-width: 501px)
+and (max-device-width: 750px) {
+
+    .mobileSizing {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .mapSize {
+        width: 450px;
+        height: 450px;
+    }
+}
+
+@media only screen
+and (min-device-width: 751px)
+and (max-device-width: 1050px) {
+
+    .mobileSizing {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .mapSize {
+        width: 450px;
+        height: 450px;
+    }
+}

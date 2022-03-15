@@ -11,23 +11,17 @@
   display: flex;
   flex-direction: column;
 }
-.trang-chu {
-  display: inline;
-  font-size: 14px;
-  font-weight: 700;
-  text-align: left;
+
+.text-link {
+  color: #FFFFFF;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
 }
 
-.a-trang-chu{
-  color: #f9f9f9;
-  display: flex;
-  flex-direction: column;
-  font-size: 13px;
-  font-weight: 600;
-  justify-content: center;
-  letter-spacing: 1.04px;
-  line-height: 16.5px;
-  margin: 7px 0px;
-  text-align: left;
-  text-transform: uppercase;
+.text-link:hover {
+  cursor: pointer;
+  border-bottom: 3px solid #FF4655;
 }
