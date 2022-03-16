@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {Row, Col, Button} from 'antd';
+import { Row, Col, Button } from 'antd';
 import './_header.scss';
 import 'antd/dist/antd.css';
-import {Bars, Nav, NavMenu} from "../NavBar/NavBarElements";
-import {NavLink} from "react-router-dom";
+import { Bars, Nav, NavMenu } from "../NavBar/NavBarElements";
+import { NavLink } from "react-router-dom";
+import Logo from '../../assets/images/logo.svg';
 
 Header.propTypes = {};
 
@@ -14,8 +15,7 @@ function Header(props) {
             <Nav>
                 <Col span={4}>
                     <NavLink to='/'>
-                        <img src="" alt='logo'/>
-                        {/*{require('../../images/logo.svg')}*/}
+                        
                     </NavLink>
                 </Col>
 
@@ -50,66 +50,6 @@ function Header(props) {
                 </Col>
             </Nav>
         </div>
-
-
-        // <div id='header-page'>
-        //     <div  className='header'>
-        //         <Row justify='center' align='middle'>
-        //             <Col span={4}>
-        //             </Col>
-        //             <Col span={20}>
-        //                 <Row>
-        //                     <Col span={4}>
-        //                         <div className='trang-chu'>
-        //                             <a className='a-trang-chu' href="/">
-        //                                 <p>
-        //                                     TRANG CHỦ
-        //                                 </p>
-        //                             </a>
-        //                         </div>
-        //                     </Col>
-        //                     <Col span={4}>
-        //                         <div className='trang-chu'>
-        //                             <a className='a-trang-chu' href='/weapons'>
-        //                                 <p>
-        //                                     ĐIỆP VIÊN
-        //                                 </p>
-        //                             </a>
-        //                         </div>
-        //                     </Col>
-        //                     <Col span={4}>
-        //                         <div className='trang-chu'>
-        //                             <a className='a-trang-chu'>
-        //                                 <p>
-        //                                     BẢN ĐỒ
-        //                                 </p>
-        //                             </a>
-        //                         </div>
-        //                     </Col>
-        //                     <Col span={4}>
-        //                         <div className='trang-chu'>
-        //                             <a className='a-trang-chu'>
-        //                                 <p>
-        //                                     KHO VŨ KHÍ
-        //                                 </p>
-        //                             </a>
-        //                         </div>
-        //                     </Col>
-        //                     <Col span={4}>
-        //                         <div className='trang-chu'>
-        //                             <a className='a-trang-chu'>
-        //                                 <p>
-        //                                     ĐÁNH GIÁ
-        //                                 </p>
-        //                             </a>
-        //                         </div>
-        //                     </Col>
-        //                 </Row>
-        //             </Col>
-        //
-        //         </Row>
-        //     </div>
-        // </div>
     );
 }
 
