@@ -66,6 +66,10 @@ h1{
     transition-duration: 100ms;
     background-color: #FF4654;
 
+    img {
+        width: 80%;
+    }
+
     .info {
         opacity: 1;
         transform: translateY(0px);
