@@ -13,10 +13,13 @@ function MapInfor(props) {
                         </Col>
 
                         <Col span={8} className="map-info">
-                            <h2 className="">{e.name}</h2>
-                            <p>
-                                {e.info}
-                            </p>
+                            <div>
+                                <h2 className="">{e.name}</h2>
+                                <p>
+                                    {e.info}
+                                </p>
+                            </div>
+
                         </Col>
                     </Row>
                 </div>

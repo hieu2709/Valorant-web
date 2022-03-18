@@ -51,4 +51,15 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    div{
+        width: 400px;
+        font-size: 20px;
+        padding-right: 100px;
+
+        h2{
+            color: #ff4655;
+            text-align: center;
+        }
+    }
 }
