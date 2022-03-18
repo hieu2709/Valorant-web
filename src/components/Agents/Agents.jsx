@@ -21,7 +21,6 @@ import Raze from "../../assets/images/agents/Raze.png"
 import Skye from "../../assets/images/agents/Skye.png"
 import Reyna from "../../assets/images/agents/Reyna.png"
 import AgentInfo from "./AgentInfo";
-import AgentListLeft from "./AgentListLeft";
 
 Agents.propTypes = {
 
@@ -151,7 +150,6 @@ function Agents(props) {
             <h1>ĐIỆP VIÊN</h1>
             <Row>
                 <Col span={4} className='list-agents'>
-                    {/*<AgentListLeft listAgentsLeft={listAgentsLeft} />*/}
                     <div className='agent'>
                         <Button type='link' onClick={()=>chooseAgent(0)}>BRIMSTONE</Button>
                     </div>
