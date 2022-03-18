@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import PropTypes from 'prop-types';
 import './style.scss';
 import {Button, Col, Row} from "antd";
 import Astra from "../../assets/images/agents/Astra.png"
@@ -139,14 +138,10 @@ const listAgents = [
     },
 ]
 
-const listAgentsLeft = ["Brimstone","Phoenix", "Sage", "Sova", "Viper", "Reyna", "KillJoy", "Chamber"]
 function Agents(props) {
 
     const [agent, setAgent] = useState(listAgents[0]);
 
-    const chooseAgent = (x) => {
-        setAgent(listAgents[x]);
-    }
 
     return (
         <div>
