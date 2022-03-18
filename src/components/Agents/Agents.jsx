@@ -21,6 +21,8 @@ import Raze from "../../assets/images/agents/Raze.png"
 import Skye from "../../assets/images/agents/Skye.png"
 import Reyna from "../../assets/images/agents/Reyna.png"
 import AgentInfo from "./AgentInfo";
+import AgentListLeft from "./AgentListLeft";
+import AgentListRight from "./AgentListRight";
 
 Agents.propTypes = {
 
@@ -145,70 +147,19 @@ function Agents(props) {
     const chooseAgent = (x) => {
         setAgent(listAgents[x]);
     }
+
     return (
         <div>
             <h1>ĐIỆP VIÊN</h1>
             <Row>
                 <Col span={4} className='list-agents'>
-                    <div className='agent'>
-                        <Button type='link' onClick={()=>chooseAgent(0)}>BRIMSTONE</Button>
-                    </div>
-                    <div className='agent'>
-                        <Button type='link' onClick={()=>chooseAgent(1)}>PHOENIX</Button>
-                    </div >
-                    <div className='agent'>
-                        <Button type='link' onClick={()=>chooseAgent(2)}>SAGE</Button>
-                    </div>
-                    <div className='agent'>
-                        <Button type='link' onClick={()=>chooseAgent(3)}>SOVA</Button>
-                    </div >
-                    <div className='agent'>
-                        <Button type='link' onClick={()=>chooseAgent(4)}>VIPER</Button>
-                    </div >
-                    <div className='agent'>
-                        <Button type='link' onClick={()=>chooseAgent(5)}>CYPHER</Button>
-                    </div>
-                    <div className='agent'>
-                        <Button type='link' onClick={()=>chooseAgent(6)}>REYNA</Button>
-                    </div>
-                    <div className='agent'>
-                        <Button type='link' onClick={()=>chooseAgent(7)}>KILLJOY</Button>
-                    </div>
-                    <div className='agent'>
-                        <Button type='link' onClick={()=>chooseAgent(8)}>CHAMPER</Button>
-                    </div>
+                    <AgentListLeft listAgents={listAgents} setAgent={setAgent}/>
                 </Col>
                 <Col span={16}>
                     <AgentInfo agent={agent}/>
                 </Col>
-                <Col span={4} className='agiments'>
-                    <div className='agent'>
-                        <Button type='link' onClick={()=>chooseAgent(9)}>BREACH</Button>
-                    </div>
-                    <div className='agent'>
-                        <Button type='link' onClick={()=>chooseAgent(10)}>OMEN</Button>
-                    </div>
-                    <div className='agent'>
-                        <Button type='link' onClick={()=>chooseAgent(11)}>JETT</Button>
-                    </div>
-                    <div className='agent'>
-                        <Button type='link' onClick={()=>chooseAgent(12)}>RAZE</Button>
-                    </div>
-                    <div className='agent'>
-                        <Button type='link' onClick={()=>chooseAgent(13)}>SKYE</Button>
-                    </div>
-                    <div className='agent'>
-                        <Button type='link' onClick={()=>chooseAgent(14)}>YORU</Button>
-                    </div>
-                    <div className='agent'>
-                        <Button type='link' onClick={()=>chooseAgent(15)}>ASTRA</Button>
-                    </div>
-                    <div className='agent'>
-                        <Button type='link' onClick={()=>chooseAgent(16)}>KAY/0</Button>
-                    </div>
-                    <div className='agent'>
-                        <Button type='link' onClick={()=>chooseAgent(17)}>NEON</Button>
-                    </div>
+                <Col span={4} className='list-agents'>
+                    <AgentListRight listAgents={listAgents} setAgent={setAgent}/>
                 </Col>
             </Row>
         </div>

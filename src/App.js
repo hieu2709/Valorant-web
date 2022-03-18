@@ -2,7 +2,7 @@ import Home from "./pages/Home";
 import 'antd/dist/antd.css';
 import Maps from "./components/Maps/Maps";
 import Header from "./components/Header/Header";
-import {Route, Routes, BrowserRouter} from "react-router-dom";
+import {Route, Routes} from "react-router-dom";
 import Weapons from "./components/Weapons/Weapons";
 import Agents from "./components/Agents/Agents";
 import './App.css';
