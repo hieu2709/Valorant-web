@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import Ascent from '../../assets/images/maps/ascent-featured.png';
 import Bind from '../../assets/images/maps/bind-featured.png';
 import Breeze from '../../assets/images/maps/breeze-featured_v1.png';
@@ -10,13 +9,11 @@ import Fracture from '../../assets/images/maps/Valorant_FRACTURE_Minimap_Alpha_w
 import "./style.scss";
 import {Col, Row} from "antd";
 
-Maps.propTypes = {
-    
-};
 
-function Maps(props) {
+function Maps() {
     return (
         <div className="mainBackground">
+
             <h1 className=''>BẢN ĐỒ</h1>
             <div className="map">
                 <Row justify="center" align="middle">
