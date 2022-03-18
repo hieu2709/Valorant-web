@@ -5,7 +5,6 @@ import './_header.scss';
 import 'antd/dist/antd.css';
 import { Bars, Nav, NavMenu } from "../NavBar/NavBarElements";
 import { NavLink } from "react-router-dom";
-import Logo from '../../assets/images/logo.svg';
 
 Header.propTypes = {};
 
