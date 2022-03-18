@@ -5,6 +5,7 @@ import Header from "./components/Header/Header";
 import {Route, Routes, BrowserRouter} from "react-router-dom";
 import Weapons from "./components/Weapons/Weapons";
 import Agents from "./components/Agents/Agents";
+import './App.css';
 
 
 function App() {
