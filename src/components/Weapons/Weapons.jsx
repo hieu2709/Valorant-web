@@ -28,81 +28,131 @@ function Weapons(props) {
             <div className='container'>
                 <div className='card'>
                     <img src={Classic} alt=""/>
-                    <span>
-                        Classic
-                    </span>
+                    <div className='info'>
+                        <h1>CLASSIC.</h1>
+                        <p>Chế độ chính bắn ra những phát đạn chính xác khi đứng yên, đi kèm với chế độ bắn siêu tốc dành cho các cuộc chạm trán tầm gần.</p>
+                    </div>
                 </div>
 
                 <div className='card'>
                     <img src={Shorty} alt=""/>
-                    <span>Shorty</span>
+                    <div className='info'>
+                        <h1>CLASSIC.</h1>
+                        <p>Chế độ chính bắn ra những phát đạn chính xác khi đứng yên, đi kèm với chế độ bắn siêu tốc dành cho các cuộc chạm trán tầm gần.</p>
+                    </div>
                 </div>
+            </div>
 
+            <div className='container'>
                 <div className='card'>
                     <img src={Frenzy} alt=""/>
-                    <span>Frenzy</span>
+                    <div className='info'>
+                        <h1>CLASSIC.</h1>
+                        <p>Chế độ chính bắn ra những phát đạn chính xác khi đứng yên, đi kèm với chế độ bắn siêu tốc dành cho các cuộc chạm trán tầm gần.</p>
+                    </div>
                 </div>
 
                 <div className='card'>
                     <img src={Ghost} alt=""/>
-                    <span>Ghost</span>
+                    <div className='info'>
+                        <h1>CLASSIC.</h1>
+                        <p>Chế độ chính bắn ra những phát đạn chính xác khi đứng yên, đi kèm với chế độ bắn siêu tốc dành cho các cuộc chạm trán tầm gần.</p>
+                    </div>
                 </div>
+            </div>
 
+            <div className='container'>
                 <div className='card'>
                     <img src={Sheriff} alt=""/>
-                    <span>Sheriff</span>
+                    <div className='info'>
+                        <h1>CLASSIC.</h1>
+                        <p>Chế độ chính bắn ra những phát đạn chính xác khi đứng yên, đi kèm với chế độ bắn siêu tốc dành cho các cuộc chạm trán tầm gần.</p>
+                    </div>
+                </div>
+                <div className='card'>
+                    <img src={Stinger} alt=""/>
+                    <div className='info'>
+                        <h1>CLASSIC.</h1>
+                        <p>Chế độ chính bắn ra những phát đạn chính xác khi đứng yên, đi kèm với chế độ bắn siêu tốc dành cho các cuộc chạm trán tầm gần.</p>
+                    </div>
                 </div>
             </div>
             <div className='container'>
                 <div className='card'>
-                    <img src={Stinger} alt=""/>
-                    <span>Stinger</span>
-                </div>
-
-                <div className='card'>
                     <img src={Spectre} alt=""/>
-                    <span>Spectre</span>
+                    <div className='info'>
+                        <h1>CLASSIC.</h1>
+                        <p>Chế độ chính bắn ra những phát đạn chính xác khi đứng yên, đi kèm với chế độ bắn siêu tốc dành cho các cuộc chạm trán tầm gần.</p>
+                    </div>
                 </div>
 
                 <div className='card'>
                     <img src={Bucky} alt=""/>
-                    <span>Bucky</span>
-                </div>
-
-                <div className='card'>
-                    <img src={Judge} alt=""/>
-                    <span>Judge</span>
-                </div>
-
-                <div className='card'>
-                    <img src={Ares} alt=""/>
-                    <span>Ares</span>
+                    <div className='info'>
+                        <h1>CLASSIC.</h1>
+                        <p>Chế độ chính bắn ra những phát đạn chính xác khi đứng yên, đi kèm với chế độ bắn siêu tốc dành cho các cuộc chạm trán tầm gần.</p>
+                    </div>
                 </div>
             </div>
             <div className='container'>
                 <div className='card'>
+                    <img src={Judge} alt=""/>
+                    <div className='info'>
+                        <h1>CLASSIC.</h1>
+                        <p>Chế độ chính bắn ra những phát đạn chính xác khi đứng yên, đi kèm với chế độ bắn siêu tốc dành cho các cuộc chạm trán tầm gần.</p>
+                    </div>
+                </div>
+
+                <div className='card'>
+                    <img src={Ares} alt=""/>
+                    <div className='info'>
+                        <h1>CLASSIC.</h1>
+                        <p>Chế độ chính bắn ra những phát đạn chính xác khi đứng yên, đi kèm với chế độ bắn siêu tốc dành cho các cuộc chạm trán tầm gần.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div className='container'>
+                <div className='card'>
                     <img src={Bulldog} alt=""/>
-                    <span>Bulldog</span>
+                    <div className='info'>
+                        <h1>CLASSIC.</h1>
+                        <p>Chế độ chính bắn ra những phát đạn chính xác khi đứng yên, đi kèm với chế độ bắn siêu tốc dành cho các cuộc chạm trán tầm gần.</p>
+                    </div>
                 </div>
 
                 <div className='card'>
                     <img src={Guardian} alt=""/>
-                    <span>Guardian</span>
+                    <div className='info'>
+                        <h1>CLASSIC.</h1>
+                        <p>Chế độ chính bắn ra những phát đạn chính xác khi đứng yên, đi kèm với chế độ bắn siêu tốc dành cho các cuộc chạm trán tầm gần.</p>
+                    </div>
                 </div>
-
+            </div>
+            <div className='container'>
                 <div className='card'>
                     <img src={Phantom} alt=""/>
-                    <span>Phantom</span>
+                    <div className='info'>
+                        <h1>CLASSIC.</h1>
+                        <p>Chế độ chính bắn ra những phát đạn chính xác khi đứng yên, đi kèm với chế độ bắn siêu tốc dành cho các cuộc chạm trán tầm gần.</p>
+                    </div>
                 </div>
 
                 <div className='card'>
                     <img src={Vandal} alt=""/>
-                    <span>Vandal</span>
+                    <div className='info'>
+                        <h1>CLASSIC.</h1>
+                        <p>Chế độ chính bắn ra những phát đạn chính xác khi đứng yên, đi kèm với chế độ bắn siêu tốc dành cho các cuộc chạm trán tầm gần.</p>
+                    </div>
                 </div>
-
+            </div>
+            <div className='container'>
                 <div className='card'>
                     <img src={Operator} alt=""/>
-                    <span>Operator</span>
+                    <div className='info'>
+                        <h1>CLASSIC.</h1>
+                        <p>Chế độ chính bắn ra những phát đạn chính xác khi đứng yên, đi kèm với chế độ bắn siêu tốc dành cho các cuộc chạm trán tầm gần.</p>
+                    </div>
                 </div>
             </div>
         </div>
