@@ -24,7 +24,7 @@ function Information(props) {
                 <h1 className="content_title">
                     Sơ lược về game Valorant
                 </h1>
-                <video preload='true' autoPlay width="900px" controls>
+                <video preload='true' width="900px" controls>
                     <source src={GioiThieu} type='video/mp4'/>
                 </video>
                 <div className="desciption_content">
