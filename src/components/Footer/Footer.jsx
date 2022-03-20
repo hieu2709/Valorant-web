@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import "./style.scss";
 import logo from "../../assets/images/logo.png";
+import Anh18 from "../../assets/images/information/vn-18plus.png";
 
 Footer.propTypes = {
     
@@ -21,12 +22,12 @@ function Footer(props) {
                         <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i className="fab fa-github" /></a>
                     </section>
                 </div>
-                <img src={logo} style={{paddingBottom: 50, width:"300px"}}/>
+                <img src={Anh18} style={{paddingBottom:"50px"}}/>
                 <div className="text-center p-3" style={{backgroundColor: 'rgba(0, 0, 0, 0.2)'}}>
                     © 2022 Edited by :
-                    <a className="text-white" href="/">Lưu Ngọc Long</a>
-                    <a className="text-white" href="/">Nguyễn Minh Hiếu</a>
-                    <a className="text-white" href="/">trương Ngọc Vượng</a>
+                    <a className="text-white" href="/">Lưu Ngọc Long-</a>
+                    <a className="text-white" href="/">Nguyễn Minh Hiếu-</a>
+                    <a className="text-white" href="/">Trương Ngọc Vượng-</a>
                     <a className="text-white" href="/">Lê Anh Tuấn</a>
                 </div>
             </footer>

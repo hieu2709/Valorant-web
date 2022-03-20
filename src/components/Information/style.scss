@@ -1,0 +1,18 @@
+.information{
+  display: flex;
+  flex-direction: column ;
+  justify-content: center;
+  align-items: center;
+
+  .content{
+    width: 900px;
+  }
+
+  p {
+    font-size: 25px;
+  }
+  ul, li {
+    font-size: 20px;
+  }
+}
+

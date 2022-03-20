@@ -23,7 +23,7 @@ function Header(props) {
                     <NavMenu>
                         <Col span={4}>
                             <NavLink to='/information' activeStyle className='text-link'>
-                                THÔNG TIN
+                                GIỚI THIỆU
                             </NavLink>
                         </Col>
                         <Col span={4}>

@@ -15,7 +15,6 @@ function Home() {
             <GameHomeOverView/>
             <HomeMaps/>
             <HomeAgents/>
-            <Footer/>
         </>
     );
 }

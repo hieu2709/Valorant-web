@@ -16,13 +16,12 @@ function GameHomeOverView(props) {
                     </span>
                 </h6>
                 <h2 className='bigFont'>
-                        CHÚNG TÔI LÀ VALORANT
+                       VALORANT - THÁCH THỨC MỌI GIỚI HẠN
                 </h2>
             </div>
 
             <div className='d-flex justify-content-around flex-wrap' >
                 <div className='col-4 ml-4 mb-5 gameInfo'>
-                    <h2 className='slideIn topPadding normalFont boldSizing'>THÁCH THỨC MỌI GIỚI HẠN</h2>
                     <div className='mt-5 col-9 marginTop'>
                         <p className='smallFont fadeIn regSizing col-8 text-content'>
                             Mang phong cách và trải nghiệm cá nhân tới đấu trường cạnh tranh toàn cầu. Bạn có 13 vòng
