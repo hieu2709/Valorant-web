@@ -48,7 +48,7 @@ const listAgents = [
     },
     {
         id: 4,
-        name: "SOVE",
+        name: "SOVA",
         url: Sova,
         info: "Sinh ra nơi mùa đông ngự trị vĩnh cửu tại nước Nga, Sova có khả năng tìm kiếm, đánh dấu và tiêu diệt đối thủ một cách hiệu quả và chính xác. Sở hữu cây cung đặc chế và những kỹ năng trinh sát hiểm hóc, con mồi của Sova sẽ chẳng bao giờ có thể trốn thoát.",
     },

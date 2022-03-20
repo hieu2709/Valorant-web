@@ -17,7 +17,7 @@ function AgentInfo(props) {
                 <Col span={12}
                      style={{fontSize:"20px", paddingRight:"200px", paddingTop:"50px"}}
                 >
-                    <div style={{border:"2px solid #FFFFFF", width:"500px", height:"400px", borderRadius:"12px", background:"#f5d140"}}>
+                    <div style={{border:"2px solid #FFFFFF", width:"500px", height:"400px", borderRadius:"12px",}}>
                         <h1>
                             {agent.name}
                         </h1>

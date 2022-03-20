@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './style.css';
+import './style.scss';
+import {NavLink} from "../NavBar/NavBarElements";
 
 GameHomeOverView.propTypes = {};
 
@@ -19,7 +20,7 @@ function GameHomeOverView(props) {
                 </h2>
             </div>
 
-            <div className='d-flex justify-content-around flex-wrap'>
+            <div className='d-flex justify-content-around flex-wrap' >
                 <div className='col-4 ml-4 mb-5 gameInfo'>
                     <h2 className='slideIn topPadding normalFont boldSizing'>THÁCH THỨC MỌI GIỚI HẠN</h2>
                     <div className='mt-5 col-9 marginTop'>
@@ -39,6 +40,7 @@ function GameHomeOverView(props) {
                     </video>
                 </div>
             </div>
+            <NavLink  to='/information'>TÌM HIỂU TRÒ CHƠI</NavLink>
         </div>
     );
 }

@@ -5,6 +5,7 @@ import './_header.scss';
 import 'antd/dist/antd.css';
 import { Bars, Nav, NavMenu } from "../NavBar/NavBarElements";
 import { NavLink } from "react-router-dom";
+import Logo from '../../assets/images/logo.png'
 
 Header.propTypes = {};
 
@@ -14,14 +15,14 @@ function Header(props) {
             <Nav>
                 <Col span={4}>
                     <NavLink to='/'>
-                        
+                        <img src={Logo} style={{height:70}}/>
                     </NavLink>
                 </Col>
 
                 <Col span={20}>
                     <NavMenu>
                         <Col span={4}>
-                            <NavLink to='/' activeStyle className='text-link'>
+                            <NavLink to='/information' activeStyle className='text-link'>
                                 THÔNG TIN
                             </NavLink>
                         </Col>

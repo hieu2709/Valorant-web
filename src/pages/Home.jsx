@@ -1,19 +1,21 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import HomePro from '../components/HomePro/HomePro';
-import Header from '../components/Header/Header';
 import GameHomeOverView from "../components/HomeGameOverview/GameHomeOverView";
 import HomeAgents from "../components/HomeAgents/HomeAgents";
+import HomeMaps from "../components/HomeMaps/HomeMaps";
+import Footer from "../components/Footer/Footer";
 Home.propTypes = {
 
 };
 
-function Home(props) {
+function Home() {
     return (
         <>
             <HomePro/>
             <GameHomeOverView/>
+            <HomeMaps/>
             <HomeAgents/>
+            <Footer/>
         </>
     );
 }

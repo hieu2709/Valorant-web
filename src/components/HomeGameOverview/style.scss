@@ -9,6 +9,28 @@
     align-items: center;
     padding-top: 100px;
     position: relative;
+
+    .sc-gsDKAQ{
+        justify-content: center;
+        width: 274px;
+        height: 56px;
+        background-color: #ff4655;
+        boder: 1px solid #0f1923;
+        border-radius: 4px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ece8e1 !important;
+        font-size: 16px;
+        position: absolute;
+        left: 0;
+        margin-left:300px;
+        margin-top:800px;
+    }
+
+    .sc-gsDKAQ:hover{
+        background: #0f1923;
+        cursor: pointer;
+    }
 }
 
 .tag-line-module {

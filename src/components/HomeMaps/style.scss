@@ -1,0 +1,38 @@
+#HomeMaps {
+  .home_agent_page{
+    padding-top: 50px;
+    position: relative;
+
+    .img_agent {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .abc {
+      position: absolute;
+      right: 145px;
+      top: 110px;
+      height: 700px ;
+    }
+
+    .sc-gsDKAQ{
+      justify-content: center;
+      width: 250px;
+      height: 70px;
+      right: 735px;
+      top: 640px;
+      background-color: #0f1923;
+      color: #ece8e1;
+      font-size: 16px;
+      position: absolute;
+    }
+
+    .sc-gsDKAQ:hover{
+      background: #ece8e1;
+      color: #0f1923;
+      cursor: pointer;
+    }
+  }
+}
+
