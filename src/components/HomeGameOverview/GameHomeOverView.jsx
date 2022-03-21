@@ -23,7 +23,7 @@ function GameHomeOverView(props) {
             <div className='d-flex justify-content-around flex-wrap' >
                 <div className='col-4 ml-4 mb-5 gameInfo'>
                     <div className='mt-5 col-9 marginTop'>
-                        <p className='smallFont fadeIn regSizing col-8 text-content'>
+                        <p className='smallFont fadeIn regSizing text-content'>
                             Mang phong cách và trải nghiệm cá nhân tới đấu trường cạnh tranh toàn cầu. Bạn có 13 vòng
                             đấu để tấn công và phòng thủ bằng kỹ năng đấu súng và tư duy chiến thuật sắc bén. Với chỉ 1
                             mạng mỗi vòng đấu, nhanh trí là yếu tố sẽ giúp bạn sống sót trước kẻ địch. Hãy tranh tài
