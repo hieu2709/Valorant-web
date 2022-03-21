@@ -14,7 +14,7 @@ Information.propTypes = {
 function Information(props) {
     return (
         <div className="information">
-            <img src={logoVal}/>
+            <img style={{width:'100%', height:'800px'}} src={logoVal}/>
 
             <div className="d-flex justify-content-center align-items-center">
 
