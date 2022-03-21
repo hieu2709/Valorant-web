@@ -7,7 +7,7 @@ function Evaluate(props) {
     return (
         <div className="d-flex justify-content-center align-items-center">
             <div className="evaluate">
-                <h3><strong>Đánh giá Vanlorant</strong></h3>
+                <h3 style={{color: "#ff4654", fontSize:"50px",left:0, right: 0, margin:"auto", paddingLeft:"200px", paddingTop:"30px", paddingBottom:"30px"}}><strong>Đánh giá Vanlorant</strong></h3>
                 <p><strong>Ưu điểm:</strong></p>
                 <ul><li>Game nhẹ nhàng, không đòi hỏi cấu hình quá cao nên người chơi có thể dễ dàng tiếp cận.</li><li>Gameplay không quá khó để bắt nhịp, chỉ cần trải qua vài lần tập luyện là có thể chiến game.</li></ul>
                 <p><strong>Nhược điểm:&nbsp;</strong></p>
