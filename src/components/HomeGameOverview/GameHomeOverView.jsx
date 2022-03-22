@@ -39,7 +39,7 @@ function GameHomeOverView(props) {
                     </video>
                 </div>
             </div>
-            <NavLink  to='/information'>TÌM HIỂU TRÒ CHƠI</NavLink>
+            <NavLink  to='/information' target="_top">TÌM HIỂU TRÒ CHƠI</NavLink>
         </div>
     );
 }

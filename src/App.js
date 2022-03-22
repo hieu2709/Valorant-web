@@ -12,7 +12,7 @@ import Footer from "./components/Footer/Footer";
 
 
 function App() {
-
+    window.scrollTo(0,0);
     return (
         <div className="App">
             <Header/>
@@ -28,7 +28,6 @@ function App() {
                 </div>
             <Footer/>
         </div>
-
     );
 }
 

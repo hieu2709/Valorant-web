@@ -16,7 +16,7 @@ function HomeAgents(props) {
             <p>
                 Mỗi bản đồ đều là một sân chơi để bạn thỏa sức thể <br/> hiện tư duy sáng tạo của mình. Được xây dựng với mục <br/> đích phát triển chiến lược đội nhóm nhằm mang đến <br/> các trận đấu ngoạn mục và những khoảnh khắc xuất <br/> thần. Hãy tạo ra lối chơi đi vào lịch sử mà ai cũng <br/> muốn học hỏi.
             </p>
-            <NavLink  to='/maps'>XEM TẤT CẢ BẢN ĐỒ</NavLink>
+            <NavLink target="_top"  to='/maps'>XEM TẤT CẢ BẢN ĐỒ</NavLink>
             <div className='home-agents'>
                 <img src={BFG} alt="" />
             </div>
