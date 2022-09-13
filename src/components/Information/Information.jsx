@@ -36,7 +36,7 @@ function Information(props) {
 
             <div className="content">
                 <h1 className="content_title">
-                    Lối chơi mới lạ của Valorant 2022
+                    Lối chơi mới lạ của Valorant
                 </h1>
                 <p>Đầu tiên, nhân vật trong game sẽ được gọi là <strong>Agents</strong>, giống như việc các tướng trong<strong> Liên Minh</strong> được gọi là Champions vậy. Người chơi sẽ được chọn nhân vật khi bắt đầu mỗi trận đấu. Nhân vật này sẽ theo người chơi suốt một game mà không thể thay đổi. Vậy nên bạn cần cân nhắc kỹ sẽ chọn nhân vật nào khi vào trận để đạt được lợi thế tối ưu.</p>
                 <img  width="900px" src={anh5}/>
